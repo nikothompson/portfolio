@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    /* display: flex; */
+    /* justify-content: center; */
+    background-color: #7bd3f7;
+    /* align-items: center; */
+}
+
+#main-container {
+    background-color: rgb(255, 255, 255);
+    width: 1025px;
+    height: 82px;
+    display: flex;
+}
+
+#second-container {
+background-color: white;
+justify-content: center;
+height: 218px;
+width: 1025px;
+margin-top: 615px;
+}
+
+#third-container {
+    background-color: #4b78bc;
+    height: 210px;
+    width: 1022px;
+    margin-top: 62px;
+    justify-content: center;
+}
+
+#fourth-container {
+    background-color: #29abe2;
+    height: 210px;
+    width: 1022px;
+    margin-top: 62px;
+    justify-content: center;
+}
+   
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
