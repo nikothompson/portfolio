@@ -1,9 +1,9 @@
 body {
     margin: 0px;
-    /* display: flex; */
-    /* justify-content: center; */
+    display: flex;
+    justify-content: center;
     background-color: #7bd3f7;
-    /* align-items: center; */
+    flex-direction: column;
 }
 
 #main-container {
@@ -11,14 +11,21 @@ body {
     width: 1025px;
     height: 82px;
     display: flex;
+    margin: 0 auto;
+}
+#personal-logo {
+margin:  17px auto;
+display: flex;
+
 }
 
 #second-container {
 background-color: white;
-justify-content: center;
 height: 218px;
 width: 1025px;
-margin-top: 615px;
+margin-top: 62px;
+border-radius: 10px;
+margin: 0 auto;
 }
 
 #third-container {
@@ -26,7 +33,8 @@ margin-top: 615px;
     height: 210px;
     width: 1022px;
     margin-top: 62px;
-    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
 }
 
 #fourth-container {
@@ -34,11 +42,105 @@ margin-top: 615px;
     height: 210px;
     width: 1022px;
     margin-top: 62px;
-    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
 }
    
-
+#fifth-container {
+    background-color: #0071bc;
+    height: 210px;
+    width: 1022px;
+    margin-top: 62px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+#sixth-container {
+    height: 144px;
+    width: 669px;
+    margin-top: 62px;
+    background-color: black;
+    margin-left: 12%;
+    border-radius: 25px;
+    margin: 0 auto;
+    
+}
+#seventh-container {
+    height: 561px;
+    width: 902px;
+    border-radius: 25px;
+    margin-left: 4%;
+    margin-top: 62px;
+    background-color: black;
+    margin: 0 auto;
+}
+#eight-container {
+    height: 144px;
+    width: 669px;
+    margin-top: 90px;
+    background-color: black;
+    margin-left: 12%;
+    border-radius: 25px;
+    margin: 0 auto;
+}
 
 h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+padding: 60px;
+font-size: 80px;
+}
+
+.white-text {
+color: white;
+font-size: 70px;
+}
+#smallwhite-text {
+    color: white;
+    margin: 40px;
+    font-size: 30px;
+    padding: 30px;
+}
+
+#skills-text {
+    width: 1200px;
+    height: 330px;
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+
+#skills-texttwo {
+    width: 450px;
+    height: 250px;
+    font-size: 35px;
+    margin: 0 auto;
+    padding-right: 770px;
+}
+#skills-textthree {
+    width: 300px;
+    font-size: 35px;
+    margin: 0 auto;
+    padding-right: 915px;
+}
+.artwork-container {
+    width: 353px;
+    height: 480px;
+    background-color: black;
+    margin: auto;
+    margin-left: 500px;
+}
+#header-text {
+    padding: 60px;
+}
+
+#blank {
+    color: #7bd3f7;
+}
+#contacts {
+    margin-top: 5px;
+    font-size: 30px;
+    width: 300px;
+  align-items: center;
+  margin: 0 auto;
+  padding-right: 400px;
+    
 }
