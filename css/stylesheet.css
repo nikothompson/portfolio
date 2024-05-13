@@ -92,6 +92,7 @@ font-size: 80px;
 .white-text {
 color: white;
 font-size: 70px;
+padding: 35px;
 }
 #smallwhite-text {
     color: white;
@@ -129,7 +130,7 @@ font-size: 70px;
     margin-left: 500px;
 }
 #header-text {
-    padding: 60px;
+padding: 60px;
 }
 
 #blank {
@@ -143,4 +144,12 @@ font-size: 70px;
   margin: 0 auto;
   padding-right: 400px;
     
+}
+
+#cablogo {
+margin: 0px auto;
+padding-left: 370px;
+display: flex;
+position: relative;
+top: -110px;
 }
